@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: monospace, sans-serif;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 100px auto;
+}
+.card--wrapper {
+  margin: 100px 0px;
+  padding: 40px 20px;
+  max-width: 100%;
+  width: 100%;
+  border-bottom: 20px dotted grey;
+}
+input,
+button {
+  border-radius: 12px;
+  border: none;
+  background-color: rgb(51, 51, 229);
+  color: white;
+  padding: 20px 40px;
+  width: 100%;
+  margin-block: 20px;
+  font-size: 29px;
+  cursor: pointer;
+  
+}
+button{
+  &:hover {
+    box-shadow: 38px 32px 8px 7px rgba(0, 144, 255, 0.48);
+  }
+}
+input {
+  color: black;
+  background-color: #fff;
+  border: 1px solid black;
+}
+.answer--wrapper {
+  border: 1px solid gray;
+  position: relative;
+  padding: 40px 80px;
+  border-radius: 12px;
+  max-width: 100%;
+  width: 100%;
+}
+p {
+  font-size: 20px;
+  color: rgb(72, 133, 133);
+  max-width: 100%;
+  width: 100%;
+  white-space: wrap;
+  text-wrap: wrap;
+  padding-top: 20px;
+  line-height: 2;
+}
+
+label {
+  color: rgb(3, 110, 78);
+  font-size: 42px;
+}
+h5 {
+  font-size: 33px;
+  color: rgb(6, 95, 95);
+  line-height: 2;
+}
+span {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 30px;
+  cursor: grabbing;
+}
